@@ -1,0 +1,39 @@
+.aside {
+    background-color: $white;
+    width: 25rem;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+
+    .title {
+        margin: 1rem 1rem 4rem 1rem;
+        text-align: start;
+        color: $darkPrimary;
+    }
+
+    .field {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem 0;
+        max-height: 2rem;
+        transition: all .3s ease-in-out;
+
+        h4 {
+            text-align: start;
+        }
+
+        .icon {
+            font-size: 2rem;
+            color: $darkPrimary;
+        }
+
+        &:hover {
+            background-color: $primary;
+        }
+    }
+}

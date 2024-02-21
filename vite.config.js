@@ -8,13 +8,14 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `
-          @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap')
-          $primaryFont: "Fredoka", sans-serif;
+          @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+          $primaryFont: "Work Sans", sans-serif;
           $primary: #E7F1EF;
           $darkPrimary: #1E4150;
           $secondary: #EEFAE6;
           $darkSecondary: #688145;
           $assistant: #096757;
+          $background: #FDFBF9;
           $white: #ffffff;
           $black: #000000;
           $grey: #b1adad;
