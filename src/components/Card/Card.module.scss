@@ -1,0 +1,68 @@
+.cardContainer {
+    background-color: $white;
+    box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h3 {
+        margin: 0;
+        border-bottom: 1px solid $grey;
+        padding: 1.5rem;
+        text-align: start;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .currentDocument,
+    .expiration {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        margin: 2rem 0;
+
+        strong {
+            font-size: 1.4rem;
+        }
+    }
+
+    .currentDocument {
+        .state {
+            background-color: $secondary;
+            color: $darkSecondary;
+            padding: .5rem 1rem;
+            font-weight: 700;
+        }
+    }
+
+    .expiration {
+        .price {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+    }
+
+    .button {
+        background-color: $primary;
+        border: none;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: $darkPrimary;
+        border-radius: .75rem;
+        padding: 1rem;
+        margin: 1rem 1.5rem 2rem 1.5rem;
+    }
+
+    .buttonHistory {
+        background-color: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        color: $darkPrimary;
+        font-weight: 700;
+        border-top: 1px solid $grey;
+        padding: 1.5rem;
+        justify-content: space-between;
+    }
+}

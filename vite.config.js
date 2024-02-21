@@ -8,12 +8,12 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `
-          @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
           $primaryFont: "Work Sans", sans-serif;
           $primary: #E7F1EF;
           $darkPrimary: #1E4150;
           $secondary: #EEFAE6;
-          $darkSecondary: #688145;
+          $darkSecondary: #324e0c;
           $assistant: #096757;
           $background: #FDFBF9;
           $white: #ffffff;

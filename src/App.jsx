@@ -1,9 +1,11 @@
+import ItemContainer from './components/ItemContainer/ItemContainer'
 import SideBar from './components/SideBar/SideBar'
 
 function App() {
   return (
     <>
-      <SideBar title={'Jula'} />
+      <SideBar />
+      <ItemContainer title={'Mis cuentas'} />
     </>
   )
 }
