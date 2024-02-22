@@ -1,11 +1,11 @@
-import ItemContainer from './components/ItemContainer/ItemContainer'
+import Accounts from './components/Accounts/Accounts'
 import SideBar from './components/SideBar/SideBar'
 
 function App() {
   return (
     <>
       <SideBar />
-      <ItemContainer title={'Mis cuentas'} />
+      <Accounts title={'Mis cuentas'} />
     </>
   )
 }

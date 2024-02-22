@@ -1,7 +1,7 @@
-import classes from './Card.module.scss'
+import classes from './Taxes.module.scss'
 import { FaAngleRight } from "react-icons/fa6";
 
-const Card = ({ title, state, date, price }) => {
+const Taxes = ({ title, state, date, price }) => {
     return (
         <div className={classes.cardContainer}>
             <h3>{title}</h3>
@@ -27,4 +27,4 @@ const Card = ({ title, state, date, price }) => {
     )
 };
 
-export default Card;
+export default Taxes;
