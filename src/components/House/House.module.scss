@@ -1,0 +1,84 @@
+.house {
+    background-color: $white;
+    box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+
+
+    .houseInfo {
+        text-align: left;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        h3 {
+            text-align: start;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 1.6rem;
+            color: $grey;
+
+            strong {
+                font-size: 1.6rem;
+                color: $darkGrey;
+                text-transform: uppercase;
+                font-weight: 300;
+            }
+        }
+
+        .houseChecks {
+            display: flex;
+            gap: .5rem;
+
+            button,
+            .redButton {
+                background-color: $secondary;
+                border: none;
+                font-size: 1.4rem;
+                color: $darkSecondary;
+                font-weight: 700;
+                padding: .5rem;
+                border-radius: .5rem;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    background-color: $primary;
+                    color: $darkPrimary;
+                }
+            }
+
+            .redButton {
+                background-color: $delete;
+                color: $darkDelete;
+            }
+        }
+
+    }
+
+    .dropDown {
+        background-color: $darkPrimary;
+        color: $white;
+        border: none;
+        border-radius: .5rem;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 2rem;
+        transition: all .3s ease-in-out;
+
+        .dropDownIcon {
+            font-size: 2rem;
+            margin-top: .25rem;
+        }
+
+        &:hover {
+            scale: 1.1;
+        }
+    }
+}

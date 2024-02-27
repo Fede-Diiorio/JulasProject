@@ -20,8 +20,8 @@ export default defineConfig({
           $black: #000000;
           $grey: #b1adad;
           $darkGrey: #3d3d3d;
-          $delete: #d61d16;
-          $darkDelete: #8a130f;
+          $delete: #ebc2c2;
+          $darkDelete: #8b0a0a;
         `,
       },
     },
