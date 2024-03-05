@@ -13,10 +13,10 @@ const SideBar = () => {
         <aside className={classes.aside}>
             <h2 className={classes.title}>Edea</h2>
             <nav>
-                <ul>
+                <ul className={classes.ul}>
                     {
                         categories.map(cat => (
-                            <li key={cat.id}><Link to={`category/${cat.slug}`}>{cat.name}</Link></li>
+                            <li key={cat.id}><img src={cat.img} alt={`Icono de ${cat.name}`} /><Link className={classes.link} to={`category/${cat.slug}`}>{cat.name}</Link></li>
                         ))
                     }
                 </ul>

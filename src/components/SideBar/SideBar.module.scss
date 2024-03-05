@@ -14,26 +14,25 @@
         color: $darkPrimary;
     }
 
-    .field {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        gap: 1rem;
-        padding: 2rem 1rem;
-        max-height: 2rem;
-        transition: all .3s ease-in-out;
+    .ul {
+        li {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 2rem;
+            transition: all .3s ease-in-out;
 
-        h4 {
-            text-align: start;
-        }
+            img {
+                height: 2rem;
+            }
 
-        .icon {
-            font-size: 2rem;
-            color: $darkPrimary;
-        }
+            .link {
+                color: $black;
+            }
 
-        &:hover {
-            background-color: $primary;
+            &:hover {
+                background-color: $primary;
+            }
         }
     }
 }
