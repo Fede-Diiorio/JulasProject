@@ -7,7 +7,6 @@ const SideBar = () => {
 
     const asyncFunctiron = () => getCategories();
     const { data: categories } = useAsync(asyncFunctiron, []);
-    console.log(categories);
 
     return (
         <aside className={classes.aside}>

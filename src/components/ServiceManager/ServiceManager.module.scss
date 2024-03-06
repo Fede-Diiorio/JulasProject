@@ -29,5 +29,9 @@
         justify-content: flex-start;
         align-items: center;
         gap: 4rem;
+
+        li {
+            list-style-type: none;
+        }
     }
 }
