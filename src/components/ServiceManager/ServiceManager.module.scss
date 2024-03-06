@@ -1,0 +1,33 @@
+.serviceManager {
+    background-color: $white;
+    box-shadow: 2px 5px 20px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+    margin: 2rem 0;
+    padding: 4rem 2rem;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        h4 {
+            margin: 0 0 .5rem 0;
+            text-align: left;
+        }
+
+        p {
+            color: $grey;
+        }
+    }
+
+    .items {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4rem;
+    }
+}
