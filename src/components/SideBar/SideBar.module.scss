@@ -13,26 +13,4 @@
         text-align: start;
         color: $darkPrimary;
     }
-
-    .ul {
-        li {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            padding: 2rem;
-            transition: all .3s ease-in-out;
-
-            img {
-                height: 2rem;
-            }
-
-            .link {
-                color: $black;
-            }
-
-            &:hover {
-                background-color: $primary;
-            }
-        }
-    }
 }

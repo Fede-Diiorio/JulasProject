@@ -1,0 +1,19 @@
+.link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    transition: all .3s ease-in-out;
+
+    img {
+        height: 2rem;
+    }
+
+    p {
+        color: $black;
+    }
+
+    &:hover {
+        background-color: $primary;
+    }
+}
